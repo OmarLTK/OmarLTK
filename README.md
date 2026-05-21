@@ -27,7 +27,7 @@ B.Eng. Biomedical Engineering, Toronto Metropolitan University (April 2026).
 
 ### Systems & tooling
 
-🛠️ **[dfz-booking-system](#https://github.com/OmarLTK/dfz-booking-system)** — Production booking system for TMU's Design Fabrication Zone makerspace, built in Airtable's scripting extension and automation builder. Three-table architecture with a dual-layer state machine, DST-aware timestamp handling, and a sync-inversion pattern that works around Airtable's one-way Google Calendar integration. `JavaScript (Airtable Scripting) · Airtable Formulas · Google Calendar API · Slack · Gmail`
+🛠️ **[dfz-booking-system](https://github.com/OmarLTK/dfz-booking-system)** — Production booking system for TMU's Design Fabrication Zone makerspace, built in Airtable's scripting extension and automation builder. Three-table architecture with a dual-layer state machine, DST-aware timestamp handling, and a sync-inversion pattern that works around Airtable's one-way Google Calendar integration. `JavaScript (Airtable Scripting) · Airtable Formulas · Google Calendar API · Slack · Gmail`
 
 ---
 
