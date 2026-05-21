@@ -8,72 +8,23 @@ Founding engineer at **GlucoSolutions**, building a non-invasive continuous gluc
 
 ---
 
-## What I work on
+What I do
+Biopotential and optical front-ends. Instrumentation amps, transimpedance, active filtering, right-leg-drive, ADC conditioning. Schematic capture and iterative PCB prototyping in Altium, Proteus, and NI Multisim. SMD and through-hole soldering, board rework.
+Embedded acquisition. C/C++ on Arduino and PIC (MPLAB X), VHDL on Quartus II. LED-drive timing, photodiode sampling, serial telemetry.
+Biosignal algorithms. MATLAB and Python (NumPy, SciPy, scikit-learn, MNE-Python). ECG arrhythmia classification, EEG motor-imagery decoding, NIR spectroscopy regression.
 
-**Analog front-ends** for biopotential and optical acquisition — transimpedance amplifiers, instrumentation amps, active filtering, right-leg-drive, ADC conditioning. Schematic capture and iterative PCB prototyping in Proteus, NI Multisim, and Altium. SMD and through-hole soldering, board rework.
+Pinned work
+🧠 eeg-motor-imagery-bci — End-to-end pipeline on the PhysioNet Motor Movement/Imagery dataset (109 subjects). CSP and permutation-entropy features, LDA / Riemannian classifiers, leave-one-subject-out and within-subject CV. Python · MNE-Python · scikit-learn · pyRiemann
+❤️ mit-bih-arrhythmia-classification — Pan-Tompkins QRS detection implemented from scratch, AAMI EC57 beat classes, patient-wise cross-validation. Handcrafted features + Random Forest vs. 1D-CNN. Python · wfdb · PyTorch · scikit-learn
+👕 ecg-compression-shirt — Capstone design log for a garment-integrated wearable ECG. Analog front-end rationale (INA topology, RLD, 0.5–40 Hz monitoring bandwidth), board revisions, motion-artifact characterization, pathology classifier. Altium · Python · Arduino
+🩸 GlucoSolutions (closed-source, startup IP) — Founding engineer on a wearable NIR continuous glucose monitor. Designed the photodiode TIA → active bandpass → ADC chain, wrote the firmware, built the regression model. 1st place TMU Engineering Competition 2024, 3rd Ontario Engineering Competition 2025, $50K in grants.
 
-**Embedded firmware** in C/C++ on Arduino and PIC (MPLAB X), VHDL on Quartus II. LED-drive timing, photodiode sampling, sensor pipelines, serial telemetry.
+Toolbox
+Algorithms & sim — MATLAB · Python (NumPy, SciPy, scikit-learn, MNE-Python, PyTorch) · Simulink · NI Multisim
+Embedded — C / C++ · Arduino · MPLAB X (PIC) · Quartus II (VHDL)
+EDA & lab — Altium · Proteus · oscilloscopes, function generators, bench supplies, multimeters · SMD + through-hole soldering, rework
+Mechanical — SolidWorks · Fusion 360 · FDM printing
+Standards I work with — AAMI EC57 (ECG algorithm reporting), IEC 60601-2-47 (ambulatory ECG), basic familiarity with IEC 62304 (medical device software lifecycle)
+Certifications — Standard First-Aid + CPR-C · WHMIS · Biosafety · Chemical Safety
 
-**Biomedical signal processing and ML** in MATLAB and Python (NumPy, SciPy, scikit-learn). Spectroscopy regression, ECG pathology classification, EEG motor-imagery decoding.
-
----
-
-## Selected projects
-
-### 🩸 GlucoSolutions — Non-Invasive Continuous Glucose Monitor
-*Founding engineer · Jan 2024 – Present*
-
-Wearable NIR-spectroscopy device that estimates blood glucose without a fingerstick. Derived optical and electrical design requirements from first principles (Beer-Lambert absorbance, 940 nm / 1450 nm band selection, scattering vs. absorption tradeoffs). Designed the full analog front-end (photodiode TIA → active bandpass → ADC conditioning), wrote the Arduino C/C++ firmware, and built a MATLAB/Excel regression model that converts raw NIR signal to glucose concentration. **88% detection accuracy** against controlled glucose solutions across multiple hand-soldered board revisions. Led a 4-person team and raised **$50K** in grants.
-
-`MATLAB` `Proteus` `NI Multisim` `Altium` `Arduino` `C/C++` `Fusion 360`
-
-> 🏆 1st place — TMU Engineering Competition (Innovative Design), 2024
-> 🏆 3rd place — Ontario Engineering Competition, 2025
-
-### 👕 ECG Pathology Compression Shirt — Capstone
-*Lead hardware designer · Sep 2025 – Apr 2026*
-
-Garment-integrated wearable ECG with on-device pathology classification. Designed the analog acquisition chain (instrumentation amp, right-leg-drive, 0.5–40 Hz bandpass, ADC conditioning) for fabric-embedded electrodes, then iteratively debugged the things textbooks don't warn you about: motion artifact, electrode-skin impedance drift, common-mode interference. Trained a Python classification model on the captured waveforms and integrated firmware output with a companion app.
-
-`MATLAB` `Python (SciPy, scikit-learn)` `Altium` `Proteus` `Arduino` `SolidWorks`
-
-### 🧠 EEG Motor Imagery BCI
-*2025*
-
-End-to-end EEG signal-processing and classification pipeline on the PhysioNet Motor Movement/Imagery dataset (109 subjects), decoding left- vs. right-hand imagined movement. Spatial filtering, frequency-band features, permutation entropy, LDA classifier under 5-fold stratified CV. Permutation entropy was the strongest single feature across subjects — a finding I wasn't expecting going in.
-
-`Python` `MATLAB` `scikit-learn`
-
-### 🛠️ DFZ Makerspace Booking System — IBZ @ TMU
-*Special Projects Intern · Sep 2025 – Apr 2026*
-
-Production booking back-end for the Design Fabrication Zone makerspace. Three linked Airtable tables behind a public form, with a 4-state booking state machine (new / hold / confirmed / rejected) driving Slack, Gmail, and Google Calendar automation. Python scripts for rolling time-slot generation and a setup/teardown pending-slot algorithm that prevents double-bookings. Engineered a Google-Calendar-to-Airtable sync that works around Google's one-way API constraint using lookup/rollup fields with timezone-aware formula logic.
-
-`Python` `Airtable Automations` `REST APIs` `Google Calendar API`
-
-### 🎙️ Voice Intake Assistant — NexHacks (~1,500 hackers)
-*2025*
-
-Real-time voice-assistant back-end with streaming voice input and REST API integration. Translated requirements from two nurses and a medical student into a working Figma UX in under 48 hours.
-
-`Python` `LiveKit` `LeanMCP`
-
----
-
-## Toolbox
-
-**Languages & frameworks** — MATLAB · Python (NumPy, SciPy, scikit-learn) · C / C++ · VHDL · Simulink
-**Hardware & EDA** — Altium · Proteus · NI Multisim · Quartus II · MPLAB X · Arduino IDE · LabVIEW
-**Lab** — Oscilloscopes · function generators · DC bench supplies · multimeters · SMD + through-hole soldering · board rework
-**Mechanical & 3D** — SolidWorks · Fusion 360 · Bambu Lab printing
-**Other** — Git · Figma · LiveKit · LeanMCP
-
----
-
-## Credentials
-
-Standard First-Aid + CPR-C · WHMIS · Biosafety Awareness · Chemical Safety
-
----
-
-*Open to roles in medical device hardware, embedded systems, and biomedical signal processing. Reach out — I reply to everything.*
+Open to algorithm and acquisition-engineer roles in wearables, cardiac monitoring, and neurotech. I reply to every message.
