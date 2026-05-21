@@ -19,7 +19,7 @@ B.Eng. Biomedical Engineering, Toronto Metropolitan University (April 2026).
 
 ## Pinned work
 
-🧠 **[eeg-motor-imagery-bci](#)** — End-to-end pipeline on the PhysioNet Motor Movement/Imagery dataset (109 subjects). Spatial filtering, frequency-band features, permutation entropy, LDA classifier under 5-fold stratified CV. Permutation entropy was the strongest of the features I evaluated across subjects. `Python · MATLAB · scikit-learn`
+🧠 **[eeg-motor-imagery-bci](https://github.com/GlebLevashov/Motor-Imagery-Brain-Computer-Interface)** — End-to-end pipeline on the PhysioNet Motor Movement/Imagery dataset (109 subjects). Spatial filtering, frequency-band features, permutation entropy, LDA classifier under 5-fold stratified CV. Permutation entropy was the strongest of the features I evaluated across subjects. `Python · MATLAB · scikit-learn`
 
 👕 **[ecg-compression-shirt](#)** — Capstone design log for a garment-integrated wearable ECG. Analog front-end rationale (INA topology, RLD, 0.5–40 Hz monitoring bandwidth), board revisions, motion-artifact characterization, pathology classifier. `Altium · Python · Arduino`
 
