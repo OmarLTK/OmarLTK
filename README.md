@@ -1,9 +1,8 @@
 # Omar Ali-Yare
 
-Biomedical Engineer (B.Eng., Toronto Metropolitan University, April 2026). I design the analog hardware that turns biological signals into clean data, and the software that turns that data into something useful — front-end electronics, embedded firmware, and signal processing for medical devices.
+Biomedical engineer working at the interface between **analog acquisition** and **biomedical signal processing** — the path from electrode or photodiode, through a clean front-end and ADC, into algorithms that turn the signal into something useful.
 
-Founding engineer at **GlucoSolutions**, building a non-invasive continuous glucose monitor. 1st place TMU Engineering Competition 2024, 3rd place Ontario Engineering Competition 2025, $50K raised in grants.
-
+B.Eng. Biomedical Engineering, Toronto Metropolitan University (April 2026).
 📍 Toronto, ON &nbsp;·&nbsp; 📫 <Omarltk03@gmail.com> &nbsp;·&nbsp; 🔗 [LinkedIn](https://www.linkedin.com/in/omar-ali-yare/)
 
 ---
@@ -14,25 +13,27 @@ Founding engineer at **GlucoSolutions**, building a non-invasive continuous gluc
 
 **Embedded acquisition.** C/C++ on Arduino and PIC (MPLAB X), VHDL on Quartus II. LED-drive timing, photodiode sampling, serial telemetry.
 
-**Biosignal algorithms.** MATLAB and Python (NumPy, SciPy, scikit-learn, MNE-Python). ECG arrhythmia classification, EEG motor-imagery decoding, NIR spectroscopy regression.
+**Biosignal algorithms.** MATLAB and Python (NumPy, SciPy, scikit-learn). ECG signal processing, EEG motor-imagery decoding, NIR spectroscopy regression.
 
 ---
 
 ## Pinned work
 
-🧠 **[eeg-motor-imagery-bci](#)** — End-to-end pipeline on the PhysioNet Motor Movement/Imagery dataset (109 subjects). CSP and permutation-entropy features, LDA / Riemannian classifiers, leave-one-subject-out and within-subject CV. `Python · MNE-Python · scikit-learn · pyRiemann`
-
-❤️ **[mit-bih-arrhythmia-classification](#)** — Pan-Tompkins QRS detection implemented from scratch, AAMI EC57 beat classes, patient-wise cross-validation. Handcrafted features + Random Forest vs. 1D-CNN. `Python · wfdb · PyTorch · scikit-learn`
+🧠 **[eeg-motor-imagery-bci](#)** — End-to-end pipeline on the PhysioNet Motor Movement/Imagery dataset (109 subjects). Spatial filtering, frequency-band features, permutation entropy, LDA classifier under 5-fold stratified CV. Permutation entropy was the strongest of the features I evaluated across subjects. `Python · MATLAB · scikit-learn`
 
 👕 **[ecg-compression-shirt](#)** — Capstone design log for a garment-integrated wearable ECG. Analog front-end rationale (INA topology, RLD, 0.5–40 Hz monitoring bandwidth), board revisions, motion-artifact characterization, pathology classifier. `Altium · Python · Arduino`
 
 🩸 **GlucoSolutions** *(closed-source, startup IP)* — Founding engineer on a wearable NIR continuous glucose monitor. Designed the photodiode TIA → active bandpass → ADC chain, wrote the firmware, built the regression model. 1st place TMU Engineering Competition 2024, 3rd Ontario Engineering Competition 2025, $50K in grants.
 
+### Systems & tooling
+
+🛠️ **[dfz-booking-system](#)** — Production booking system for TMU's Design Fabrication Zone makerspace, built in Airtable's scripting extension and automation builder. Three-table architecture with a dual-layer state machine, DST-aware timestamp handling, and a sync-inversion pattern that works around Airtable's one-way Google Calendar integration. `JavaScript (Airtable Scripting) · Airtable Formulas · Google Calendar API · Slack · Gmail`
+
 ---
 
 ## Toolbox
 
-**Algorithms & sim** — MATLAB · Python (NumPy, SciPy, scikit-learn, MNE-Python, PyTorch) · Simulink · NI Multisim
+**Algorithms & sim** — MATLAB · Python (NumPy, SciPy, scikit-learn) · Simulink · NI Multisim
 **Embedded** — C / C++ · Arduino · MPLAB X (PIC) · Quartus II (VHDL)
 **EDA & lab** — Altium · Proteus · oscilloscopes, function generators, bench supplies, multimeters · SMD + through-hole soldering, rework
 **Mechanical** — SolidWorks · Fusion 360 · FDM printing
