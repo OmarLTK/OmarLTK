@@ -3,8 +3,8 @@
 Biomedical engineer working at the interface between **analog acquisition** and **biomedical signal processing** — the path from electrode or photodiode, through a clean front-end and ADC, into algorithms that turn the signal into something useful.
 
 B.Eng. Biomedical Engineering, Toronto Metropolitan University (April 2026).
-📍 Toronto, ON &nbsp;·&nbsp; 📫 <Omarltk03@gmail.com> &nbsp;·&nbsp; 🔗 [LinkedIn](https://www.linkedin.com/in/omar-ali-yare/)
 
+📍 Toronto, ON · 📫 [Email](Omarltk03@gmail.com) · 🔗 [LinkedIn](https://www.linkedin.com/in/omar-ali-yare/)
 ---
 
 ## What I do
