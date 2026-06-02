@@ -20,17 +20,17 @@ B.Eng. Biomedical Engineering, Toronto Metropolitan University (April 2026).
 
 ## Pinned work
 
-🧠 **[eeg-motor-imagery-bci](#)** — End-to-end pipeline on the PhysioNet Motor Movement/Imagery dataset (109 subjects). Spatial filtering, frequency-band features, permutation entropy, LDA classifier under 5-fold stratified CV. Permutation entropy was the strongest of the features I evaluated across subjects. `Python · MATLAB · scikit-learn`
+🧠 **[eeg-motor-imagery-bci](https://github.com/GlebLevashov/Motor-Imagery-Brain-Computer-Interface)** — End-to-end pipeline on the PhysioNet Motor Movement/Imagery dataset (109 subjects). Spatial filtering, frequency-band features, permutation entropy, LDA classifier under 5-fold stratified CV. Permutation entropy was the strongest of the features I evaluated across subjects. `Python · MATLAB · scikit-learn`
 
 👕 **[ecg-compression-shirt](#)** — Capstone design log for a garment-integrated wearable ECG. Analog front-end rationale (INA topology, RLD, 0.5–40 Hz monitoring bandwidth), board revisions, motion-artifact characterization, pathology classifier. `Altium · Python · Arduino`
 
 🩸 **GlucoSolutions** *(closed-source, startup IP)* — Founding engineer on a wearable NIR continuous glucose monitor. Designed the photodiode TIA → active bandpass → ADC chain, wrote the firmware, built the regression model. 1st place TMU Engineering Competition 2024, 3rd Ontario Engineering Competition 2025, $50K in grants.
 
-🤖 **[image-guided-robotic-cannula-alignment](#)** — Image-guided surgical-navigation demo on a Niryo Ned 2 (medical-robotics coursework, BME714). ArUco pose estimation via `solvePnP`, a full robot → camera → marker → patient homogeneous-transform chain, and entry-to-tumor trajectory planning with a 5 cm pre-insertion standoff. End-effector aligned to within 2–5 mm of the planned pose. `Python · OpenCV · PyNiryo · NumPy`
+🤖 **[image-guided-robotic-cannula-alignment](https://github.com/GlebLevashov/Surgical-Robot-Controller)** — Image-guided surgical-navigation demo on a Niryo Ned 2 (medical-robotics coursework, BME714). ArUco pose estimation via `solvePnP`, a full robot → camera → marker → patient homogeneous-transform chain, and entry-to-tumor trajectory planning with a 5 cm pre-insertion standoff. End-effector aligned to within 2–5 mm of the planned pose. `Python · OpenCV · PyNiryo · NumPy`
 
 ### Systems & tooling
 
-🛠️ **[dfz-booking-system](#)** — Production booking system for TMU's Design Fabrication Zone makerspace, built in Airtable's scripting extension and automation builder. Three-table architecture with a dual-layer state machine, DST-aware timestamp handling, and a sync-inversion pattern that works around Airtable's one-way Google Calendar integration. `JavaScript (Airtable Scripting) · Airtable Formulas · Google Calendar API · Slack · Gmail`
+🛠️ **[dfz-booking-system](https://github.com/OmarLTK/dfz-booking-system)** — Production booking system for TMU's Design Fabrication Zone makerspace, built in Airtable's scripting extension and automation builder. Three-table architecture with a dual-layer state machine, DST-aware timestamp handling, and a sync-inversion pattern that works around Airtable's one-way Google Calendar integration. `JavaScript (Airtable Scripting) · Airtable Formulas · Google Calendar API · Slack · Gmail`
 
 ---
 
