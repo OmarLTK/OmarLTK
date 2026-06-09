@@ -4,7 +4,7 @@ Biomedical engineer working at the interface between **analog acquisition** and 
 
 B.Eng. Biomedical Engineering, Toronto Metropolitan University (April 2026).
 
-📍 Toronto, ON · 📫 [Omarltk03@gmail.com] · 🔗 [LinkedIn](https://linkedin.com/in/omar-ali-yare)
+📍 Toronto, ON · 📫 [Gmail](Omarltk03@gmail.com) · 🔗 [LinkedIn](https://linkedin.com/in/omar-ali-yare)
 ---
 
 ## What I do
