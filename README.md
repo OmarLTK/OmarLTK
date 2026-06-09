@@ -25,7 +25,7 @@ B.Eng. Biomedical Engineering, Toronto Metropolitan University (April 2026).
 
 👕 **[ecg-compression-shirt](#)** — Capstone design log for a garment-integrated wearable ECG. Analog front-end rationale (INA topology, RLD, 0.5–40 Hz monitoring bandwidth), board revisions, motion-artifact characterization, pathology classifier. `Altium · Python · Arduino`
 
-🩸 **GlucoSolutions** *(closed-source, startup IP)* — Founding engineer on a wearable NIR continuous glucose monitor. Designed the photodiode TIA → active bandpass → ADC chain, wrote the firmware, built the regression model. 1st place TMU Engineering Competition 2024, 3rd Ontario Engineering Competition 2025, $50K in grants.
+🩸 **GlucoSolutions** *(closed-source, startup IP)* — Founding engineer on a wearable NIR continuous glucose monitor. Designed the photodiode TIA → active bandpass → ADC chain, wrote the firmware, built the regression model. 1st place TMU Engineering Competition 2024, 3rd Ontario Engineering Competition 2025, Finalist at Hult Prize 2026, $50K in grants.
 
 🤖 **[image-guided-robotic-cannula-alignment](https://github.com/GlebLevashov/Surgical-Robot-Controller)** — Image-guided surgical-navigation demo on a Niryo Ned 2 (medical-robotics coursework, BME714). ArUco pose estimation via `solvePnP`, a full robot → camera → marker → patient homogeneous-transform chain, and entry-to-tumor trajectory planning with a 5 cm pre-insertion standoff. End-effector aligned to within 2–5 mm of the planned pose. `Python · OpenCV · PyNiryo · NumPy`
 
