@@ -4,7 +4,8 @@ Biomedical engineer working at the interface between **analog acquisition** and 
 
 B.Eng. Biomedical Engineering, Toronto Metropolitan University (April 2026).
 
-📍 Toronto, ON · 📫 [Gmail](Omarltk03@gmail.com) · 🔗 [LinkedIn](https://linkedin.com/in/omar-ali-yare)
+📍 Toronto, ON · 📫 [Omarltk03@gmail.com](mailto:Omarltk03@gmail.com) · 🔗 [LinkedIn](https://linkedin.com/in/omar-ali-yare)
+
 ---
 
 ## What I do
@@ -23,7 +24,7 @@ B.Eng. Biomedical Engineering, Toronto Metropolitan University (April 2026).
 
 👕 **[ecg-compression-shirt](#)** — Capstone design log for a garment-integrated wearable ECG. Analog front-end rationale (INA topology, RLD, 0.5–40 Hz monitoring bandwidth), board revisions, motion-artifact characterization, pathology classifier. `Altium · Python · Arduino`
 
-🩸 **GlucoSolutions** *(closed-source, startup IP)* — Founding engineer on a wearable NIR continuous glucose monitor. Designed the photodiode TIA → active bandpass → ADC chain, wrote the firmware, built the regression model. 1st place TMU Engineering Competition 2024, 3rd Ontario Engineering Competition 2025, Finalist at Hult Prize 2026, $50K in grants.
+🩸 **GlucoSolutions** *(closed-source, startup IP)* — Founding engineer on a wearable NIR continuous glucose monitor. Designed the photodiode TIA → active bandpass → ADC chain, wrote the firmware, built the regression model. 1st place TMU Engineering Competition 2024, 3rd Ontario Engineering Competition 2025, $50K in grants.
 
 🤖 **[image-guided-robotic-cannula-alignment](https://github.com/GlebLevashov/Surgical-Robot-Controller)** — Image-guided surgical-navigation demo on a Niryo Ned 2 (medical-robotics coursework, BME714). ArUco pose estimation via `solvePnP`, a full robot → camera → marker → patient homogeneous-transform chain, and entry-to-tumor trajectory planning with a 5 cm pre-insertion standoff. End-effector aligned to within 2–5 mm of the planned pose. `Python · OpenCV · PyNiryo · NumPy`
 
@@ -31,16 +32,17 @@ B.Eng. Biomedical Engineering, Toronto Metropolitan University (April 2026).
 
 🛠️ **[dfz-booking-system](https://github.com/OmarLTK/dfz-booking-system)** — Production booking system for TMU's Design Fabrication Zone makerspace, built in Airtable's scripting extension and automation builder. Three-table architecture with a dual-layer state machine, DST-aware timestamp handling, and a sync-inversion pattern that works around Airtable's one-way Google Calendar integration. `JavaScript (Airtable Scripting) · Airtable Formulas · Google Calendar API · Slack · Gmail`
 
-🎙️ **[voice-intake-assistant](https://github.com/GlebLevashov/CarePath.ai) — Real-time streaming voice assistant for clinical intake, on LiveKit and MCP (LeanMCP). Workflow scoped with two nurses and a medical student; prompt structure iterated for ambiguous patient responses. `Python · LiveKit · MCP · REST`
+🎙️ **[meeting-transcription-server](https://github.com/OmarLTK/meeting-transcription-server)** — Self-hosted meeting recording, transcription, and summarization for a TMU team, on one Apple Silicon Mac under a zero-recurring-cost constraint. Speakr in Docker (Colima), Groq Whisper for speech-to-text, and a local LLM (`gpt-oss:20b` on native Ollama, Metal-accelerated) for summaries, after Groq's free text tier failed every long summary on its token cap and then retired the configured model. Loopback-bound behind Tailscale Serve HTTPS, 10-day audio-only retention, launchd-managed context length to prevent silent transcript truncation, health-check and backup scripts, and a written decision record. `Docker · Colima · Ollama · Tailscale · Bash · launchd`
 
 ---
 
 ## Toolbox
 
-**Algorithms & sim** — MATLAB · Python (NumPy, SciPy, scikit-learn, OpenCV) · Simulink · NI Multisim · robot pose estimation (ArUco / `solvePnP`, homogeneous-transform chaining)
-**Embedded** — C / C++ · Arduino · MPLAB X (PIC) · Quartus II (VHDL)
-**EDA & lab** — Altium · Proteus · oscilloscopes, function generators, bench supplies, multimeters · SMD + through-hole soldering, rework
-**Mechanical** — SolidWorks · Fusion 360 · FDM printing
+- **Algorithms & sim** — MATLAB · Python (NumPy, SciPy, scikit-learn, OpenCV) · Simulink · NI Multisim · robot pose estimation (ArUco / `solvePnP`, homogeneous-transform chaining)
+- **Embedded** — C / C++ · Arduino · MPLAB X (PIC) · Quartus II (VHDL)
+- **EDA & lab** — Altium · Proteus · oscilloscopes, function generators, bench supplies, multimeters · SMD + through-hole soldering, rework
+- **Mechanical** — SolidWorks · Fusion 360 · FDM printing
+- **Infrastructure** — Docker / Colima · Ollama (local LLM serving) · Tailscale · Bash · macOS launchd
 
 **Standards I work with** — AAMI EC57 (ECG algorithm reporting), IEC 60601-2-47 (ambulatory ECG), basic familiarity with IEC 62304 (medical device software lifecycle)
 
