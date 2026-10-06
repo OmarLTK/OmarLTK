@@ -22,7 +22,7 @@ B.Eng. Biomedical Engineering, Toronto Metropolitan University (April 2026).
 
 🧠 **[eeg-motor-imagery-bci](https://github.com/GlebLevashov/Motor-Imagery-Brain-Computer-Interface)** — End-to-end pipeline on the PhysioNet Motor Movement/Imagery dataset (109 subjects). Spatial filtering, frequency-band features, permutation entropy, LDA classifier under 5-fold stratified CV. Permutation entropy was the strongest of the features I evaluated across subjects. `Python · MATLAB · scikit-learn`
 
-👕 **[ecg-compression-shirt](https://github.com/OmarLTK/ecg-compression-shirt)** — Capstone design log for a garment-integrated wearable ECG. Analog front-end rationale (INA topology, RLD, 0.5–40 Hz monitoring bandwidth), board revisions, motion-artifact characterization, pathology classifier. `Altium · Python · Arduino`
+👕 **[ecg-compression-shirt](https://github.com/OmarLTK/ecg-compression-shirt)** — Capstone engineering record for a garment-integrated wearable ECG. Two-channel AD620/LM358 front-end I designed and iterated, ESP32 acquisition, BLE to a React Native app, plus an audit of the classifier's training data and the report's numbers. `ESP32 · Python · Analog front-end`
 
 🩸 **GlucoSolutions** *(closed-source, startup IP)* — Founding engineer on a wearable NIR continuous glucose monitor. Designed the photodiode TIA → active bandpass → ADC chain, wrote the firmware, built the regression model. 1st place TMU Engineering Competition 2024, 3rd Ontario Engineering Competition 2025, $50K in grants.
 
